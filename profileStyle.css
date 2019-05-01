@@ -1,9 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
 body{
   margin: 0;
   padding: 0;
-  background: url(bg2.png) no-repeat;
-  background-size: cover;
+  background: url(bg2.png) repeat;
+  background-size: contain;
+  color: white;
 }
+
+
+
+
+.fwh-slide{
+
+
+height: 140vh;
+ background: black;
+box-sizing: border-box;
+color: white;
+}
+
+
+.fwh-slide-yellow{
+
+height: 100vh;
+background: yellow;
+  
+color: black;
+
+
+}
+
+.fwh-slide-2{
+
+height: 100vh;
+background: black;
+box-sizing: border-box;
+color: white;
+
+}
+
+
+.fwh-slide: p{
+
+margin: 0px;
+
+
+}
+
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
@@ -49,4 +94,101 @@ ul{
 }
 .box li a:hover{
   color: #b9b9b9;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.font-div {
+
+
+  width: 30%;
+
+}
+
+
+.navBox{
+
+  width: 600px;
+  background: black;
+  padding: 20px 640px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+
+}
+
+
+
+
+header {
+  background: "black";
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+a {
+
+color: white;
+
+
 }
